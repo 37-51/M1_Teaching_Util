@@ -20,4 +20,6 @@ As we know due to heavy population there will be more number of people getting r
 |LR03|Can able to know vaccines are available or not in that area|Not implemented|
 ## SWOT
 ![swot analysis](./swot.jpg)
+Strength:
+         *
 ## 4W's & 1H 
