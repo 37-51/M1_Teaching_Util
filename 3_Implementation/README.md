@@ -1,6 +1,6 @@
 # Implementation
-* In C programming
-
+### INTRODUCTION
+This folder conatins all the coding files as well as the resources and testing files neede for proper execution of program
 # Examples
 ## Set-1
 * Concepts
