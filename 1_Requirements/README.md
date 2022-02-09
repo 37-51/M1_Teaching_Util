@@ -5,7 +5,7 @@ As we know due to heavy population there will be more number of people getting r
 
 
 ## High Level Requirements
-|id|Descrption|Status|
+|ID|Descrption|Status|
 |--|----------|------|
 |HR01|User can make registrations after the verification is successful|Implemented|
 |HR01|User can make new registrations|Implemented|
@@ -13,9 +13,11 @@ As we know due to heavy population there will be more number of people getting r
 |HR03|Gap between doses|Not Implemented|
 
 ## Low Level Requirements
-* How each feature is implemented
-* Linkage of High level to Low level
-
+|ID|Description|Status|
+|--|-----------|------|
+|LR01|User can select required dose|Implemented|
+|LR02|Can able to see how many doses completed|Implemented|
+|LR03|Can able to know vaccines are available or not in that area|Not implemented|
 ## SWOT
 
 ## 4W's & 1H 
