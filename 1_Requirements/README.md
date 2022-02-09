@@ -7,7 +7,10 @@ As we know due to heavy population there will be more number of people getting r
 ## High Level Requirements
 |id|Descrption|Status|
 |--|----------|------|
-|
+|HR01|User can make registrations after the verification is successful|Implemented|
+|HR01|User can make new registrations|Implemented|
+|HR02|Two step authentication|Not implemented|
+|HR03|Gap between doses|Not Implemented|
 
 ## Low Level Requirements
 * How each feature is implemented
