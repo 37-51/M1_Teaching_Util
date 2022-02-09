@@ -32,6 +32,11 @@ As we know due to heavy population there will be more number of people getting r
 ## 4W's & 1H 
 ### Who
 User must get vaccinated
-###
+### What
 To verify the user registered data.
+### When
+It is done when the date is allotted.
+### Where
+At the vaccination centers
+
 
