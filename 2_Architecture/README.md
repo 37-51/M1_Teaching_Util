@@ -3,5 +3,6 @@
 ## Design
 * Structural
 * Behavioural
-    * Flowcharts
-    * Use case diagrams
+### Flowcharts
+
+![flow chart](./fc.jpg)
