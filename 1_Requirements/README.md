@@ -30,13 +30,16 @@ As we know due to heavy population there will be more number of people getting r
 *Opportunity is we can know how many vaccines are available and how many are not.
         
 ## 4W's & 1H 
-### Who
+### WHO
 User must get vaccinated
-### What
+### WHAT
 To verify the user registered data.
-### When
+### WHEN
 It is done when the date is allotted.
-### Where
-At the vaccination centers
+### WHERE
+At the vaccination centres
+### HOW
+The user will be registered and also verifying the details
+
 
 
