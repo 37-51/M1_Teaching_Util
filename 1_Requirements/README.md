@@ -33,4 +33,5 @@ As we know due to heavy population there will be more number of people getting r
 ### Who
 User must get vaccinated
 ###
+To verify the user registered data.
 
