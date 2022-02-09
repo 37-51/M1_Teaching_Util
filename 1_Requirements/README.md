@@ -20,13 +20,13 @@ As we know due to heavy population there will be more number of people getting r
 |LR03|Can able to know vaccines are available or not in that area|Not implemented|
 ## SWOT
 ![swot analysis](./swot.jpg)
-##Strength
+## Strength
 *Stength of this project is to vaccinate people by registering to the vaccines using thier government id proof.Also helps to make the vaccination process simplier and efficiently.
-##Threat
+## Threat
 *Threat here is there is no Two step authentication done and many of the users using thier personal data for verification.
-##Weakness
+## Weakness
 *Weakness is  no security and no linkage of our mobile to govt proof.
-##Opportunities
+## Opportunities
 *Opportunity is we can know how many vaccines are available and how many are not.
         
 ## 4W's & 1H 
