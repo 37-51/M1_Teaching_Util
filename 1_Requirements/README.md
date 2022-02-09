@@ -30,3 +30,7 @@ As we know due to heavy population there will be more number of people getting r
 *Opportunity is we can know how many vaccines are available and how many are not.
         
 ## 4W's & 1H 
+### Who
+User must get vaccinated
+###
+
