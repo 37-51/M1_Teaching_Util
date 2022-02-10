@@ -10,7 +10,7 @@ int existregist();
 // Checks how many doses should be given
 int vaccine_status(int );
 
-// Structure that stores all details of a patient
+// Structure that stores all informATION of a patient
 typedef struct patient{
     int age;
     long aadhar;
