@@ -5,3 +5,4 @@ Add all the certificates that you obtain
 * ![cisco ndg certificate](./cisco.jpg)
 * Screenshot of Github Learning
 * Screenshot HackerEarth Points
+* ![hackerearth points](./hackerearth.jpg)
