@@ -1,45 +1,46 @@
 # Description
-Last few years have been challenging for everyone of us due to "CORONA".So many of the biotech companies have been woking to make vaccines available to everyone.So government is planning to make it simple to everyone.So here i proposed a design that instead of making complex creating a local servers which can be done quickly and efficiently which also decrease the chance of crashing and hacking.So this project helpful for registering vaccine easily and quickly.
-# Requirements
-As we know due to heavy population there will be more number of people getting registering for vaccines so the number of people getting registered and number of people completed vaccination will be more so there will be chance of server crash.Here this project helps to create a local servers where the user get registered after reaching the max server reach it connects to main server and corresponding to this each vaccine centre will operate locally  and this can be done online and whatever the vaccine he required can register in this local server.Here the registrations can be done on day time and data acquired can be done on night.Once the registration and after successful verification the data is kept for future use.
-
+Last few years have been challenging for everyone of us due to "CORONA".So it is important for everyone to maintain social distance.As we know when we want to travel from one place to another there will be toll gates at some places.Instead of giving money to hand on hand i made a project when we get registered with our vehicle number the gate will be open and closed automatically with our registerd vehicle number.
+As we know due to heavy population there will be more number of people travel from one place to other it is better to avoid physical contact and also helps for saving the time
+So this project helps to avoid these problems and come up with a better solution.
 
 ## High Level Requirements
 |ID|Descrption|Status|
 |--|----------|------|
 |HR01|User can make registrations after the verification is successful|Implemented|
 |HR01|User can make new registrations|Implemented|
+|HR03|User can move up or down,Up and down|Implemented|
 |HR02|Two step authentication|Not implemented|
-|HR03|Gap between doses|Not Implemented|
+|HR03|Date of expiry for the vehicle registration|Not Implemented|
 
 ## Low Level Requirements
 |ID|Description|Status|
 |--|-----------|------|
-|LR01|User can select required dose|Implemented|
-|LR02|Can able to see how many doses completed|Implemented|
-|LR03|Can able to know vaccines are available or not in that area|Not implemented|
+|LR01|User can select required direction|Implemented|
+|LR02|Can able to add new vehicles|Implemented|
+|LR03|Can able to know whether the online registration can be done in that toll area|Not implemented|
 ## SWOT
 ![swot analysis](./swot.jpg)
 ## Strength
-*Stength of this project is to vaccinate people by registering to the vaccines using thier government id proof.Also helps to make the vaccination process simplier and efficiently.
+*Stength of this project is to make the toll travel simpler and easier keeping in mind of present situations
 ## Threat
 *Threat here is there is no Two step authentication done and many of the users using thier personal data for verification.
 ## Weakness
-*Weakness is  no security and no linkage of our mobile to govt proof.
+*Weakness is we cannot able to know where are the toll places we unable to work this on.
 ## Opportunities
-*Opportunity is we can know how many vaccines are available and how many are not.
+*Opportunity is we can know how many tollgates are present in the direction we travel.
         
 ## 4W's & 1H 
 ### WHO
-User must get vaccinated
+User must travel without physical contact with toll gate officer and make it simple.
 ### WHAT
-To verify the user registered data.
+To verify the user vehicle number.
 ### WHEN
-It is done when the date is allotted.
+It is done at the time where the vehicle pass by tollgate.
 ### WHERE
-At the vaccination centres
+At the tollgates.
 ### HOW
 The user will be registered and also verifying the details
 
 
 
+**Used idea from amith nair but made changes to it except the idea, remaining are different.
