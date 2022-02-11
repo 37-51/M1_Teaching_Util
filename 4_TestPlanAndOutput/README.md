@@ -5,4 +5,9 @@
     * Capture the actual result
 
 # Table
-* ID, Description of Test case, Input values, Expected Output, Actual Output
+## High Level Test Plan
+|Test ID|Description|Input|Expected output|Actual Output|
+|-------|-----------|-----|---------------|-------------|
+|1      |Vehicle registration status|[-1]|Not registered|
+|2      |vehicle registration status|(0,1)|Move up or down direction|
+|3      |vehicle registration status|(>0)|move up and down|
