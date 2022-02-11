@@ -1,7 +1,7 @@
 # Description
 Last few years have been challenging for everyone of us due to "CORONA".So it is important for everyone to maintain social distance.As we know when we want to travel from one place to another there will be toll gates at some places.Instead of giving money to hand on hand i made a project when we get registered with our vehicle number the gate will be open and closed automatically with our registerd vehicle number.
 As we know due to heavy population there will be more number of people travel from one place to other it is better to avoid physical contact and also helps for saving the time
-So this project helps to avoid these problems and come up with a better solution.
+So this project helps to avoid these problems and come up with a better solution.For example if we want to travel from one place to other the tollgates will be automatically send us without physical contact with our vehicle number.If the vehicle registered with 10tolls then after the 10tolls it no more helps in sending the vehicle directly so we have to update the registered vehicle numer.
 
 ## High Level Requirements
 |ID|Descrption|Status|
