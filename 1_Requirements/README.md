@@ -43,3 +43,4 @@ The user will be registered and also verifying the details
 
 
 
+**Used idea from amith nair but made changes to it except the idea, remaining are different.
