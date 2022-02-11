@@ -1,26 +1,26 @@
 #ifndef REGIST_C
 #define REGIST_C
 
- // Checks for registration details of new patients
+ // Checks for registration details of user
 int regist_status(long pd );
 
 // Checks details from the pre registered patients
 int existregist();
 
-// Checks how many doses should be given
-int vaccine_status(int );
+// Checks which direction he has to move
+int vehicle_status(int );
 
-// Structure that stores all details of a patient
-typedef struct patient{
+// Structure that stores all details of a user
+typedef struct user{
     int age;
-    long pannumber;
+    long vehiclenumber;
     int ph_number;
     int secret_code;
-    int vaccine_type;
-    int vaccine_doses;
-}patient_details;
+    int direction_type;
+    int user_tolls;
+}user_details;
 
 // variable pd that stores details of upto 1000 patients
-patient_details pd[1000];
+user_details pd[1000];
 
 #endif
