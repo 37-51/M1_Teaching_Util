@@ -10,4 +10,4 @@
 |-------|-----------|-----|---------------|-------------|
 |1      |Vehicle registration status|user details|[-1]|Not registered|
 |2      |vehicle registration status|user details|(0,1)|registered|
-|3      |vehicle registration status|vehicle number(>0)|move up and down,up or down|
+|3      |vehicle registration status|vehicle number|(>0)|move up and down,up or down|
