@@ -1,8 +1,8 @@
 #include"stdio.h"
 #include "regist.h"
 
-// Patients already registered list is given as input for verification
-// pd stands for patient details
+// user already registered list is given as input for verification
+// pd stands for user details
 int existregist(){
     pd[1].age=123;
     pd[1].vehiclenumber=123;
