@@ -1,5 +1,5 @@
 PROJ_NAME = Vehicle_Registration
-SRC = Project_main.c\
+SRC = Projectmain.c\
 src/existreg.c\
 src/regist.c
 TEST_SRC = src/regist.c\
