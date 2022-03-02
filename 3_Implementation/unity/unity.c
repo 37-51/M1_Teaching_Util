@@ -500,14 +500,14 @@ static void UnityTestResultsBegin(const char* file, const UNITY_LINE_TYPE line)
     UNITY_OUTPUT_CHAR(':');
 #else
 #ifdef UNITY_OUTPUT_FOR_IAR_WORKBENCH
-    UnityPrint("<SRCREF line=");
+    UnityPrint("<SourcecodeREF line=");
     UnityPrintNumber((UNITY_INT)line);
     UnityPrint(" file=\"");
     UnityPrint(file);
     UNITY_OUTPUT_CHAR('"');
     UNITY_OUTPUT_CHAR('>');
     UnityPrint(Unity.CurrentTestName);
-    UnityPrint("</SRCREF> ");
+    UnityPrint("</SourcecodeREF> ");
 #else
 #ifdef UNITY_OUTPUT_FOR_QT_CREATOR
     UnityPrint("file://");
