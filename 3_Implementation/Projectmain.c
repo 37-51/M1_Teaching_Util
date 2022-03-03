@@ -25,7 +25,7 @@ int main(){
     
     i=1;
     while(i<=1000){
-        if(pd[i].vehicle==p)
+        if(pd[i].vehiclenumber==p)
             j=i;
     i++;
     }
@@ -34,9 +34,9 @@ int main(){
         existregist();
         i=1;
         while(i<=1000){
-            if(pd[i].vehicle==0){
+            if(pd[i].vehiclenumber==0){
                 printf("Fill details for registration\n");
-                pd[i].vehicle=pd[0].vehicle;
+                pd[i].vehiclenumber=pd[0].vehiclenumber;
                 printf("Enter your phone number: ");
                 scanf("%d",&pd[i].ph_number);
                 printf("Enter your age: ");
@@ -111,8 +111,8 @@ int main(){
     printf("\nFinal list of vehicles and their rides\n");
     int i=1;
     while(i<=1000){
-        if(pd[i].vehicle!=0){
-            printf("P%d vehicle:%li\n",i,pd[i].vehicle);
+        if(pd[i].vehiclenumber!=0){
+            printf("P%d vehicle:%li\n",i,pd[i].vehiclenumber);
             printf("P%d Phone no:%d\n",i,pd[i].ph_number);
             printf("P%d Age:%d\n",i,pd[i].age);
             printf("P%d Secret code:%d\n",i,pd[i].secret_code);
