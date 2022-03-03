@@ -63,13 +63,13 @@ int main(){
         printf("Time for ride\nSelect type\n");
         printf("1:up or down\n2:up and down\n");
         scanf("%d",&choice);
-        if(pd[j].vehicle_type==0){
+        if(pd[j].direction_type==0){
             switch (choice){
                 case 1:
-                    pd[j].vehicle_type=1;
+                    pd[j].direction_type=1;
                     break;
                 case 2:
-                    pd[j].vehicle_type=2;
+                    pd[j].direction_type=2;
                     break;
                 default:
                     printf("Select option 1 or 2\n");
@@ -99,9 +99,9 @@ int main(){
         printf("You have completed travelling\n");
     
    
-    if(pd[j].vehicle_type==1 && (vstat==1 || vstat==2))
+    if(pd[j].direction_type==1 && (vstat==1 || vstat==2))
         v1++;
-    else if(pd[j].vehicle_type==2 && (vstat==1 || vstat==2))
+    else if(pd[j].direction_type==2 && (vstat==1 || vstat==2))
         v2++;
     
     attmpt--;
@@ -116,7 +116,7 @@ int main(){
             printf("P%d Phone no:%d\n",i,pd[i].ph_number);
             printf("P%d Age:%d\n",i,pd[i].age);
             printf("P%d Secret code:%d\n",i,pd[i].secret_code);
-            printf("P%d ride type:%d\n",i,pd[i].vaccine_type);
+            printf("P%d ride type:%d\n",i,pd[i].direction_type);
             printf("P%d no of rides:%d\n",i,pd[i].vaccine_doses);
         }
     i++;
