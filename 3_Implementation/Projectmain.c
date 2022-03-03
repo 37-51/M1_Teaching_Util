@@ -117,7 +117,7 @@ int main(){
             printf("P%d Age:%d\n",i,pd[i].age);
             printf("P%d Secret code:%d\n",i,pd[i].secret_code);
             printf("P%d ride type:%d\n",i,pd[i].direction_type);
-            printf("P%d no of rides:%d\n",i,pd[i].vaccine_doses);
+            printf("P%d no of rides:%d\n",i,pd[i].user_tolls);
         }
     i++;
     }
