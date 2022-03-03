@@ -1,9 +1,1 @@
-# M1_Teaching_Util
-* Repository to Teach C Programming as per Industry Standards
-![cisco ndg](/cisco ndg)
-## Milestone -1 
-* Folder Struture
-* Idea
-* Requirements
-* Design
-* Test plan
+[![CI](https://github.com/37-51/M1_Toll_Util/actions/workflows/main.yml/badge.svg)](https://github.com/37-51/M1_Toll_Util/actions/workflows/main.yml)
