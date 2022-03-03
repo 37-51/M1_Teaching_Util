@@ -1,12 +1,14 @@
 PROJ_NAME = Vehicle_Registration
-Sourcecode = Projectmain.c\
-Sourcecode/existreg.c\
-Sourcecode/regist.c
-TEST_Sourcecode = Sourcecode/regist.c\
-Sourcecode/existreg.c\
+SRC = Projectmain.c\
+src/existreg.c\
+src/regist.c
+TEST_SRC = src/regist.c\
+src/existreg.c\
 test/test_regist.c\
 unity/unity.c 
-#make file took reference from amithsnair
+  
+
+#To check if the OS is windows or linux and set the executable file extension and delete command accordingly
 ifdef OS
    RM = del /q
    FixPath = $(subst /,\,$1)
@@ -22,8 +24,8 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
 INC	= -Iinc\
 -Iunity
 
-all:$(Sourcecode) $(BUILD)
-	gcc $(Sourcecode) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+all:$(SRC) $(BUILD)
+	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
 
 run: all
@@ -32,7 +34,7 @@ run: all
 # Build and run of Unit test
 
 build_test:
-	gcc $(TEST_Sourcecode) $(INC) $(INCLUDE_LIBS) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+	gcc $(TEST_SRC) $(INC) $(INCLUDE_LIBS) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
 run_test: build_test
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
@@ -46,7 +48,7 @@ memcheck:
 	valgrind ./$(TEST_OUTPUT)
 
 sanitize_check:
-	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_Sourcecode) $(INC) -o $(TEST_OUTPUT) 
+	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
 	./$(TEST_OUTPUT)
 
 clean:
